@@ -1,0 +1,89 @@
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: relative;
+  overflow: hidden;
+  background: url('../images/bg.jpg');
+  font: 14px "Arial", "Microsoft YaHei", "tahoma", "黑体", "宋体";
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+}
+.container .title,
+.container .result {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.container .title {
+  margin-top: 200px;
+}
+.container .result {
+  height: 24px;
+  line-height: 24px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 16px;
+}
+.container .button {
+  width: 180px;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  margin: 50px auto 0;
+  border-radius: 35px;
+  background: #ffb827;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  border: 3px solid #fff;
+}
+.container .menu {
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+}
+.container .menu button {
+  outline: 0 none;
+  border: 0 none;
+}
+.container .menu > button {
+  padding: 2px 5px;
+  border-bottom: 1px solid #0095FF;
+  background: transparent;
+}
+.container .menu .user {
+  display: none;
+  position: absolute;
+  left: 80px;
+  right: 80px;
+  top: 0;
+  height: 150px;
+}
+.container .menu .user textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: calc(100% - 45px);
+  padding: 5px 10px;
+  resize: none;
+  color: #000;
+}
+.container .menu .user p {
+  margin: 5px 0 0;
+}
+.container .menu .user button {
+  width: 80px;
+  height: 40px;
+  background-color: #0095FF;
+  color: #fff;
+  border-radius: 4px;
+  margin: 0 5px;
+}
